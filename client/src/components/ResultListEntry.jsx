@@ -10,7 +10,7 @@ class ResultListEntry extends React.Component {
   }
 
   favoriteHandler(entry) {
-    console.log('in controller for favorites');
+    console.log('in handler for favorites');
     axios({
       url: '/favorites',
       method: 'POST',
